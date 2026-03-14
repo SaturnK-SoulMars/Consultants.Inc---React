@@ -35,7 +35,7 @@ const CursorBlob = () => {
   return (
     <div
       ref={blobRef}
-      className="pointer-events-none absolute top-0 left-0 z-50 w-[200px] h-[200px] rounded-full mix-blend-screen"
+      className="pointer-events-none absolute top-0 left-0 z-50 w-50 h-50 rounded-full mix-blend-screen"
       style={{
         background:
           "radial-gradient(circle, hsl(235 85% 55% / 0.6) 0%, hsl(235 85% 55% / 0.2) 40%, transparent 70%)",
